@@ -1,0 +1,7 @@
+## base image
+FROM tomcat:8.5.98-jre11-temurin-jammy
+
+## war 파일을 webapps에 복사
+COPY target/ver4-1.0.0-BUILD-SNAPSHOT.war /usr/local/tomcat/webapps
+
+ENTRYPOINT ["catalina.sh", "run"]
