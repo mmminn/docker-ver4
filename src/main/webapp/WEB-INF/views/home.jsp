@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<h1>[VER4] MySQL!!</h1>
+	<h1>[VER4] MySQL!! hello hi</h1>
 	<P>The time on the server is ${serverTime}.</P>
 	<div>
 		<img alt="google logo" src="<c:url value='/resources' />/google.png">
